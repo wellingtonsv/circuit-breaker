@@ -1,0 +1,22 @@
+{
+   "request":{
+      "method":"GET",
+      "url":"/comments/659472a0e90e380bb9adde78"
+   },
+   "response":{
+      "status":200,
+      "headers":{
+         "Content-Type":"application/json"
+      },
+      "jsonBody":[
+         {
+            "author":"Wellington Vieira",
+            "text":"Muito bom o Wiremock."
+         },
+         {
+            "author":"Duda Vieira",
+            "text":"Muito massa o Wiremock."
+         }
+      ]
+   }
+}

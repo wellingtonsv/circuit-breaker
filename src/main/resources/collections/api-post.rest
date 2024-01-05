@@ -1,0 +1,25 @@
+### - Post publication
+POST http://localhost:8080/api/v1/publications
+Content-Type: application/json
+
+{
+    "title": "Alô DEV brabo....",
+    "imageUrl": "http://localhost:8080/image.png",
+    "text": "Criando um cricuit-breaker."
+}
+
+### - Get All publications
+GET http://localhost:8080/api/v1/publications
+Content-Type: application/json
+Accept-Language: application/json
+
+### Get by ID publication
+GET http://localhost:8080/api/v1/publications/659472a0e90e380bb9adde78
+Content-Type: application/json
+Accept-Language: application/json
+
+
+### - validate the collection wiremock
+GET http://localhost:8082/comments/64d1739b5bee710ddffd936d
+Content-Type: application/json
+Accept-Language: application/json
